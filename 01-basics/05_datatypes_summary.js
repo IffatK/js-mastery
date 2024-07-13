@@ -1,7 +1,7 @@
 // primitive datatype
 //7 types : String , Number , Boolean , null, undefined ,Symbol,BigInt
 
-const score = 100
+/* const score = 100
 const scoreValue = 100
 const isLoggedIn = false
 const outsideTemp = null
@@ -36,4 +36,26 @@ myFunction()
 console.log(typeof bigNumber)
 console.log(typeof heros)
 console.log(typeof myFunction)
-console.log(typeof myObj)
+console.log(typeof myObj) */
+
+
+// ================================
+
+//stack (primitive) , Heap (non-premitive)
+
+let myYoutubeName = "kiffat411@gmail.com"
+let anotherName = myYoutubeName
+anotherName = 'chaiaurCode'
+// console.log(myYoutubeName)
+// console.log(anotherName)
+
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let user2 = userOne
+user2.email = "user2@gmail.com"
+console.log(userOne.email)
+console.log(user2.email)
